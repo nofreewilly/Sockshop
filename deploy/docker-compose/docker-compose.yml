@@ -26,7 +26,7 @@ services:
       - /var/run:rw,noexec,nosuid
     hostname: edge-router
     restart: always
-   catalogue:
+  catalogue:
     image: weaveworksdemos/catalogue:0.3.5
     hostname: catalogue
     restart: always
