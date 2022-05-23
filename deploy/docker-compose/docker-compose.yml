@@ -27,7 +27,7 @@ services:
     hostname: edge-router
     restart: always
   catalogue:
-    image: weaveworksdemos/catalogue:sha-e9e5338
+    image: weaveworksdemos/catalogue:master-bf571e15
     hostname: catalogue
     restart: always
     cap_drop:
